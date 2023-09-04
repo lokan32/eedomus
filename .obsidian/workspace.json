@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "doc/verisure.md",
+                "file": "doc/Volets Profalux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d8df4f8776dda12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "doc/Netatmo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64af7c9b6e8ecfac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "doc/Doorbird.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "doc/verisure.md",
+                "file": "doc/Doorbird.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "doc/verisure.md",
+                "file": "doc/Doorbird.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "doc/verisure.md"
+                "file": "doc/Doorbird.md"
               }
             }
           }
@@ -146,10 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f63d79846172d21",
+  "active": "64af7c9b6e8ecfac",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "doc/Netatmo.md",
+    "doc/Doorbird.md",
+    "doc/Volets Profalux.md",
     "doc/verisure.md",
+    "doc/Documentation/Notice SAV Moteur Zigbee 3.0 - A partir de Septembre 2021 - NSAV061.pdf",
+    "doc/Documentation/Notice SAV Telecommande Zigbee - A partir de septembre 2021 - NSAV062.pdf",
+    "doc/Documentation",
+    "doc/Nouveau dossier",
+    "Untitled.canvas",
     "README.md"
   ]
 }
