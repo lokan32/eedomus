@@ -24,6 +24,11 @@ Retirer un peu d'eau avant d'ouvrir
 - Nettoyage au jet
 
 Si beaucoup de dépôt, utiliser aspirateur balai + éjection de l'eau
+# Pompe à Chaleur
+- Ouvrir entrée en sortie à fond
+- laisser une légère ouverture du by-pass 
+	- Si trop de débit, ne chauffe pas assez
+- Idéalement fait +2°C entre IN et OUT
 # Hivernage
 Comme hiver long. Conseil de 
 - baisser le niveau d'eau sous les skimmer
