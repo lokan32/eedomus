@@ -36,7 +36,17 @@ Le retour doit être le suivant
 
 `<b>Connexion réussie !</b><br><br>Informations sur votre portier Doorbird : <br>{"BHA": { "RETURNCODE": "1", "VERSION": [{"FIRMWARE": "000140","BUILD_NUMBER": "16750642","WIFI_MAC_ADDR": "XXXXXXXXX","RELAYS":["1"],"DEVICE-TYPE": "DoorBird D1101V-S"}]}}`
 
-
-
+### Mise à jour auto de l'IP
+Il est possible d'utiliser la fonction sdk_get_ip_from_ip_or_mac('1C:CA:E3:7A:33:BF'); pour récupérer l'IP d'un périphérique.
+Récupérer la MAC du doorbird sur 
+- https://secure.eedomus.com/box_http_query.php?from=script_proxy&controller_id=16257&command_sent_id=18903647&url=http%3A%2F%2F192.168.1.69%2Fconfig%2Fnetscan.php&XPATH=&convert=&radio_source= 
+- http://ip_box_eedomus/config/netscan.php
+- https://doc.eedomus.com/view/Superviser_son_r%C3%A9seau_local
+Modifier ensuite la ligne suivante du script doorbird
+```
+//$doorbird_ip = getArg('doorbird_ip');
+$doorbird_ip = sdk_get_ip_from_ip_or_mac(getArg('doorbird_ip'));
+```
+Et remplacer l'IP de VAR1 par l'adresse MAC
 
 
